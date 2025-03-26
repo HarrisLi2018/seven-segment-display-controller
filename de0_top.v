@@ -1,0 +1,1 @@
+module de0_top(input  clk,output [6:0] segments,output [3:0] anodes);reg [3:0] data = 4'hH; // Initial display valuereg [3:0] anode_sel = 4'h0; // Initial anode selectseven_segment_controller seg_controller(.data(data),.segments(segments));always @(posedge clk) begin// Anode scanning (assuming 4-digit 7-segment display)case (anode_sel)...endendmodule

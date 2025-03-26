@@ -1,0 +1,1 @@
+module lcd_display(input wire clk,input wire [7:0] data,output wire [6:0] segments,output wire [3:0] anodes);always @(posedge clk) begin// 更新segments和anodes...endendmodule

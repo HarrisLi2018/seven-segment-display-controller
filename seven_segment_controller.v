@@ -1,0 +1,1 @@
+<paste the contents of seven_segment_controller.v here>
